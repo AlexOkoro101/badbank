@@ -1,0 +1,33 @@
+.form {
+    border: 1px solid #ddd;
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+}
+h1{
+    margin: 0;
+}
+.input {
+    padding: 10px;
+    border: 1px solid;
+    border-color: lightblue;
+    width: 95%;
+    outline: none;
+}
+button {
+    padding: 8px 15px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: lightgray;
+}
+.error {
+    color: red;
+    font-size: smaller;
+}
