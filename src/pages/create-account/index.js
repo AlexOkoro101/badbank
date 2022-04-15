@@ -95,7 +95,7 @@ function CreateAccount() {
                 </div>
 
                <div>
-                   <button type="submit">{isLoading ? "Loading..." : "Create Account"}</button>
+                   <button className="btn btn-primary" type="submit">{isLoading ? "Loading..." : "Create Account"}</button>
                </div>
            </form>
          </div>

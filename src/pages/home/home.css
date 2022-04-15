@@ -1,11 +1,124 @@
-.main-content {
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 20px auto;
-    width: 40%;
-    text-align: center;
+* {
+    font-family: 'Poppins', sans-serif;
 }
-.card {
-    width: 50px;
+.home-registration {
+    padding-top: 190px;
+}
+.home-half {
+    padding-bottom: 150px;
+    padding-top: 220px;
+    height: 40rem;
+}
+.bg-home {
+    background: url('../../../public/img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+}
+.bg-overlay {
+    background: linear-gradient(to right, #512da8, #711e72);
+    opacity: 0.9;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+.display-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.display-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.vertical-content {
+    display: -moz-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: row;
+}
+.text-white {
+    color: #ffffff !important;
+}
+.row > * {
+    position: relative;
+}
+.home-title {
+    font-size: 46px;
+    line-height: 64px;
+}
+.home-subtitle-width-100 {
+    max-width: 100%;
+}
+.home-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    max-width: 600px;
+    margin: 0;
+}
+.btn-primary, .play-btn, .account-card .form-check-input:checked {
+    border-color: #2762da !important;
+}
+
+.section-title-border, .services-box:hover i, .bg-primary, .btn-primary, .features-item-list li:before, .process-left-icon-1 i, .process-left-icon-2 i, .account-card .form-check-input:checked {
+    background-color: #2762da !important;
+}
+.btn-primary {
+    background: #4341cc;
+    border-color: #4341cc !important;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+}
+.btn, .btn:focus, button, button:focus {
+    outline: none !important;
+}
+.home-registration-form {
+    padding: 15px 32px 32px 32px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 0px #000000;
+}
+.home-registration-form .form-heading {
+    margin-bottom: 25px;
+}
+.form-control {
+    margin-bottom: 15px;
+    box-shadow: none !important;
     height: 50px;
+    padding-left: 20px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+}
+textarea.form-control {
+    height: auto;
+    padding-top: 13.5px;
+}
+
+textarea.form-control {
+    height: auto !important;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+}
+.btn, .btn:focus, button, button:focus {
+    outline: none !important;
 }

@@ -1,16 +1,16 @@
-h1 {
+.depositHeader{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .deposit {
     width: 50%;
     margin: 30px auto;
-    border: 1px solid #ddd;
     padding: 20px;
 }
 .flex {
     display:flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 button {
     margin-top: 20px;
